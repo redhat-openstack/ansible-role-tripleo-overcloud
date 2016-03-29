@@ -1,0 +1,7 @@
+Code-Review+2: mathieu bultel <mat.bultel@gmail.com>
+Verified+1: wes hayutin <weshayutin@gmail.com>
+Submitted-by: wes hayutin <weshayutin@gmail.com>
+Submitted-at: Tue, 29 Mar 2016 19:11:12 -0400
+Reviewed-on: https://review.gerrithub.io/270834
+Project: redhat-openstack/ansible-role-tripleo-overcloud
+Branch: refs/heads/master
