@@ -1,0 +1,21 @@
+---
+- include: provision.yml
+
+- name:  Setup undercloud and baremetal vms and networks in libvirt
+  hosts: virthost
+  gather_facts: yes
+  roles:
+    - libvirt/teardown
+    - libvirt/setup
+
+- name: Rebuild inventory
+  hosts: localhost
+  roles:
+    - rebuild-inventory
+
+- name:  Install undercloud and deploy overcloud
+  hosts: undercloud
+  gather_facts: no
+  roles:
+    - tripleo/undercloud
+    - tripleo/overcloud
