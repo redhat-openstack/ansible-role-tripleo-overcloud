@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da9b358b_cce4f33c",
+        "filename": "setup.cfg",
+        "patchSetId": 8
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1005220
+      },
+      "writtenOn": "2016-03-31T15:36:44Z",
+      "side": 1,
+      "message": "the name should be change here and perhaps the author and author-email (I don\u0027t know if the rdo-ci@redhat email exist)",
+      "revId": "249bb8dd107b22ee8e405f7a78fc5bcb9bdc1f70",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da9b358b_4ccfc3b0",
+        "filename": "tox.ini",
+        "patchSetId": 8
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1005220
+      },
+      "writtenOn": "2016-03-31T15:36:44Z",
+      "side": 1,
+      "message": "probably useless for this repo now",
+      "revId": "249bb8dd107b22ee8e405f7a78fc5bcb9bdc1f70",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da9b358b_6cca87a3",
+        "filename": "tox.ini",
+        "patchSetId": 8
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1005220
+      },
+      "writtenOn": "2016-03-31T15:36:44Z",
+      "side": 1,
+      "message": "same here",
+      "revId": "249bb8dd107b22ee8e405f7a78fc5bcb9bdc1f70",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
