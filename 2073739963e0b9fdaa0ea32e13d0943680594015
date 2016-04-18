@@ -1,0 +1,9 @@
+Code-Review+1: Harry Rybacki <hrybacki@gmail.com>
+Code-Review+1: Matt Young <myoung@redhat.com>
+Code-Review+2: wes hayutin <weshayutin@gmail.com>
+Verified+1: wes hayutin <weshayutin@gmail.com>
+Submitted-by: wes hayutin <weshayutin@gmail.com>
+Submitted-at: Mon, 18 Apr 2016 13:05:44 -0400
+Reviewed-on: https://review.gerrithub.io/273352
+Project: redhat-openstack/ansible-role-tripleo-overcloud
+Branch: refs/heads/master
