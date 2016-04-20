@@ -2,6 +2,11 @@ local_working_dir: "{{ lookup('env', 'HOME') }}/.cat"
 local_heat_template_dir: "{{ local_working_dir }}/usr/local/share/ansible-role-tripleo-overcloud/files"
 working_dir: /home/stack
 
+# controller net config
+controller_net_config_script: controller-net-config.sh.j2
+tripleo_heat_templates_dir: /usr/share/openstack-tripleo-heat-templates/
+controller_template_path: {{ tripleo_heat_templates_dir }}/network/config/single-nic-vlans/controller.yaml
+
 hw_env: virt
 network_isolation_type: single_nic_vlans_ipv4
 network_isolation: true

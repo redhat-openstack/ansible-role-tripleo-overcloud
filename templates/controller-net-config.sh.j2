@@ -1,0 +1,4 @@
+#!/bin/bash
+# simply add default route for control plane network for the controller
+sed -i '/next_hop\: {get_param\: EC2MetadataIp}/a\                -\n                  default: true\n                  next_hop: {get_param: ControlPlaneDefaultRoute}' {{ controller_template_path }}
+sed -i '/parameters:/a\  ControlPlaneDefaultRoute:\n    description: The subnet CIDR of the control plane network\n    type: string'  {{ controller_template_path }}
