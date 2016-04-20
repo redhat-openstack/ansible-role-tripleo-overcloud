@@ -5,6 +5,7 @@
     use_ssh_args: yes
   when: network_isolation
 
-
-
-
+- name: Setup controller net_config
+  shell: |
+    {{ working_dir }}/controller-net-config.sh > controller-net-config.log
+  when: network_isolation

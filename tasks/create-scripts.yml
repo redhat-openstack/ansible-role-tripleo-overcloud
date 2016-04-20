@@ -4,10 +4,14 @@
     dest: "{{ working_dir }}/overcloud-deploy.sh"
     mode: 0744
 
+- name: Create controller network setup
+  template:
+    src: "{{ controller_net_config_script }}"
+    dest: "{{ working_dir }}/controller-net-config.sh"
+    mode: 0744
+
 - name: Create post-deploy script
   template:
     src: "{{ post_deploy_script }}"
     dest: "{{ working_dir }}/overcloud-deploy-post.sh"
     mode: 0744
-
-
