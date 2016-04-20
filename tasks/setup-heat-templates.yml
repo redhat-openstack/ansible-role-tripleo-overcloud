@@ -5,6 +5,13 @@
     use_ssh_args: yes
   when: network_isolation
 
+- name: Create controller network setup
+  template:
+    src: "{{ controller_net_config_script }}"
+    dest: "{{ working_dir }}/controller-net-config.sh"
+    mode: 0744
 
-
-
+- name: Setup controller net_config
+  shell: |
+    {{ working_dir }}/controller-net-config.sh > controller-net-config.log
+  when: network_isolation

@@ -9,5 +9,3 @@
     src: "{{ post_deploy_script }}"
     dest: "{{ working_dir }}/overcloud-deploy-post.sh"
     mode: 0744
-
-
