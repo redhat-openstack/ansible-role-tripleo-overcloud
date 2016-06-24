@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_4c4d6771",
+        "filename": "tasks/deploy-overcloud.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000777
+      },
+      "writtenOn": "2016-06-24T18:22:42Z",
+      "side": 1,
+      "message": "this is not set to undercloud, but on localhost",
+      "revId": "f74fbaf80d34df2ae409c17fdab41bd36bdc3c1d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
