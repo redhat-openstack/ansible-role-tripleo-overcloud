@@ -16,6 +16,24 @@
       "revId": "04833698cdf7cb6a6896e9750d4de7ac5d9df815",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_2c9ea3b8",
+        "filename": "tasks/deploy-overcloud.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000777
+      },
+      "writtenOn": "2016-06-24T18:31:00Z",
+      "side": 1,
+      "message": "If script exit code reflect overcloud deploy success/failure, why is the next task needed ?",
+      "parentUuid": "baa041b7_0c6e3fc9",
+      "revId": "04833698cdf7cb6a6896e9750d4de7ac5d9df815",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
