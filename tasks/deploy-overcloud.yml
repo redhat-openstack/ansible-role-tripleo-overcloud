@@ -9,7 +9,24 @@
   command: >
     grep -q 'Stack overcloud CREATE_FAILED' {{ deploy_log }}
   register: deploy_result
-  failed_when: deploy_result.rc == 0
-  changed_when: false
+  ignore_errors: true
+
+- name: write out overcloud status to a file on the localhost
+  shell: >
+    echo '{ "overcloud_deploy_result": "failed" }' > {{ local_working_dir }}/overcloud_deployment_result.json
+  delegate_to: localhost
+  when: deploy_result.rc != 0
+
+- name: write out overcloud status to a file on the localhost
+  shell: >
+    echo '{ "overcloud_deploy_result": "passed" }' > {{ local_working_dir }}/overcloud_deployment_result.json
+  delegate_to: localhost
+  when: deploy_result.rc == 0
+
+- name: import deployment status from file
+  include_vars: {{ local_working_dir }}/overcloud_deployment_result.json
+
+- name: echo deployment_status
+  debug: var=overcloud_deploy_result
 
 
