@@ -34,6 +34,24 @@
       "revId": "04833698cdf7cb6a6896e9750d4de7ac5d9df815",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_ecf55bed",
+        "filename": "tasks/deploy-overcloud.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2016-06-24T18:55:30Z",
+      "side": 1,
+      "message": "I think all issues that needed the next task have been fixed in python-tripleoclient (at least on master), but in the past there were multiple bugs where the deploy command exited 0 on CREATE_FAILED.",
+      "parentUuid": "baa041b7_2c9ea3b8",
+      "revId": "04833698cdf7cb6a6896e9750d4de7ac5d9df815",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
