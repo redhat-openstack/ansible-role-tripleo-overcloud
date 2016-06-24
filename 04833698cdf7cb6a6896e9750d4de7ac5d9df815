@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_0c6e3fc9",
+        "filename": "tasks/deploy-overcloud.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2016-06-24T18:27:36Z",
+      "side": 1,
+      "message": "I think we need ignore_errors here as well, or we will just fail if the overcloud fails to deploy.",
+      "revId": "04833698cdf7cb6a6896e9750d4de7ac5d9df815",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
