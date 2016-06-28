@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_8dc47f92",
+        "filename": "tasks/deploy-overcloud.yml",
+        "patchSetId": 10
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1007211
+      },
+      "writtenOn": "2016-06-28T15:46:54Z",
+      "side": 0,
+      "message": "Could be lineinfile instead...but grep works too :)",
+      "range": {
+        "startLine": 10,
+        "startChar": 4,
+        "endLine": 10,
+        "endChar": 8
+      },
+      "revId": "0fa59148d45c3a83b44ca187911f0a69dc194abc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
