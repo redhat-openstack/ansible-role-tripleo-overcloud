@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_f54f2cbc",
+        "filename": "tasks/post-deploy.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-07-07T13:35:06Z",
+      "side": 1,
+      "message": "The file is deleted by this change, why are you including it here then?",
+      "range": {
+        "startLine": 15,
+        "startChar": 11,
+        "endLine": 15,
+        "endChar": 24
+      },
+      "revId": "a829601aaf9c51d6b6fab3f3c31e1984f40e6e49",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
