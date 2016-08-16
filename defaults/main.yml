@@ -59,3 +59,4 @@ step_deploy_overcloud: true
 step_validate_overcloud: true
 test_tempest: false
 test_ping: true
+set_heat_workers: true

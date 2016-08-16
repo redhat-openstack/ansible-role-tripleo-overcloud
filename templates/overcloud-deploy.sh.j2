@@ -15,9 +15,9 @@ while true; do
     fi
 done
 
+{% if test_ping or set_heat_workers %}
 # Include configuration necessary for the ping test here if requested via the
 # ansible `test_ping` variable.
-{% if test_ping %}
 DEPLOY_ENV_YAML=/tmp/deploy_env.yaml
 
 # Set most service workers to 1 to minimise memory usage on
