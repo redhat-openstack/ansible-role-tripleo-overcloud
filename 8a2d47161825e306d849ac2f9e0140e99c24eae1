@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_8f8b8c68",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1003864
+      },
+      "writtenOn": "2016-08-25T08:04:27Z",
+      "side": 1,
+      "message": "a nitpick but could we call it no_neutronl3ha.yaml to be clearer",
+      "revId": "8a2d47161825e306d849ac2f9e0140e99c24eae1",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
