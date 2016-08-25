@@ -6,6 +6,10 @@
 # #/usr/share/openstack-tripleo-heat-templates/network/config/$type/node.yaml
 
 parameter_defaults:
+{% if overcloud_nodes|length > 2 and enable_pacemaker == true %}
+  # Disable L3 HA when we have only 1 controller and pacemaker
+  NeutronL3HA: false
+{% endif %}
   InternalApiNetCidr: 172.16.20.0/24
   StorageNetCidr: 172.16.21.0/24
   TenantNetCidr: 172.16.22.0/24
