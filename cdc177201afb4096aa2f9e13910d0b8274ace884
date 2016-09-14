@@ -1,0 +1,7 @@
+Code-Review+2: wes hayutin <weshayutin@gmail.com>
+Verified+1: John Trowbridge <trown@redhat.com>
+Submitted-by: John Trowbridge <trown@redhat.com>
+Submitted-at: Wed, 14 Sep 2016 10:09:56 -0400
+Reviewed-on: https://review.gerrithub.io/294537
+Project: redhat-openstack/ansible-role-tripleo-overcloud
+Branch: refs/heads/master
