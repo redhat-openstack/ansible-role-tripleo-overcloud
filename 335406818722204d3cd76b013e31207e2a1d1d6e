@@ -1,0 +1,7 @@
+Code-Review+2: Attila Darazs <adarazs@redhat.com>
+Verified+1: Attila Darazs <adarazs@redhat.com>
+Submitted-by: Attila Darazs <adarazs@redhat.com>
+Submitted-at: Tue, 27 Sep 2016 05:39:00 -0400
+Reviewed-on: https://review.gerrithub.io/295960
+Project: redhat-openstack/ansible-role-tripleo-overcloud
+Branch: refs/heads/master
