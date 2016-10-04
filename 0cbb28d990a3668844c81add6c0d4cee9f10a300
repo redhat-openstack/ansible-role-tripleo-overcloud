@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_4cee2bb6",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-10-04T14:30:31Z",
+      "side": 1,
+      "message": "I\u0027d rather add a default in the defaults/main.yml file to not have stuff hidden away like this.",
+      "range": {
+        "startLine": 7,
+        "startChar": 43,
+        "endLine": 7,
+        "endChar": 58
+      },
+      "revId": "0cbb28d990a3668844c81add6c0d4cee9f10a300",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_ec2f3ff4",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-10-04T14:30:31Z",
+      "side": 1,
+      "message": "I\u0027d call this overcloud_ipv6 to avoid some possible variable name collision (maybe later when we\u0027ll have undercloud_ipv6 too).",
+      "range": {
+        "startLine": 7,
+        "startChar": 34,
+        "endLine": 7,
+        "endChar": 38
+      },
+      "revId": "0cbb28d990a3668844c81add6c0d4cee9f10a300",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
