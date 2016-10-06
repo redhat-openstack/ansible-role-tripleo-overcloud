@@ -50,12 +50,15 @@ timeout_args: "--timeout {{deploy_timeout}}"
 network_args: ""
 pacemaker_args: ""
 
+ssl_args: ""
+
 deploy_args: >-
   {{ libvirt_args }}
   {{ flavor_args }}
   {{ timeout_args }}
   {{ network_args }}
   {{ pacemaker_args }}
+  {{ ssl_args }}
   {{ extra_args }}
 
 step_deploy_overcloud: true
