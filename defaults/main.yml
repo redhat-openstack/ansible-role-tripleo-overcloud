@@ -50,6 +50,11 @@ timeout_args: "--timeout {{deploy_timeout}}"
 network_args: ""
 pacemaker_args: ""
 
+ssl_args: >-
+  -e {{ overcloud_template_path }}/environments/enable-tls.yaml
+  -e {{ overcloud_template_path }}/environments/tls-endpoints-public-ip.yaml
+  -e {{ overcloud_template_path }}/environments/inject-trust-anchor.yaml
+
 deploy_args: >-
   {{ libvirt_args }}
   {{ flavor_args }}
@@ -57,6 +62,7 @@ deploy_args: >-
   {{ network_args }}
   {{ pacemaker_args }}
   {{ extra_args }}
+  {{ ssl_args if ssl_overcloud is true }}
 
 step_deploy_overcloud: true
 step_validate_overcloud: true
