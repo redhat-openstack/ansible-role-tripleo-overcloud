@@ -51,7 +51,6 @@ network_args: ""
 pacemaker_args: ""
 
 deploy_args: >-
-  {{ libvirt_args }}
   {{ flavor_args }}
   {{ timeout_args }}
   {{ network_args }}

@@ -1,6 +1,11 @@
 # Generate a number of scripts from templates.  These are scripts
 # rather than additional ansible tasks so that they can be run
 # manually from the undercloud host.
+
+- name: Use KVM for Red Hat based distro (defaults to qemu)
+  set_fact: libvirt_args="--libvirt-type kvm"
+#  when: ansible_distribution == 'RedHat'
+
 - name: Create overcloud deploy script
   template:
     src: "{{ deploy_script }}"
