@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_98b45ef1",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-10-07T12:48:33Z",
+      "side": 1,
+      "message": "It won\u0027t hurt if this is a list because we flatten it in the end, but it\u0027s not necessary as we\u0027re not planning to extend it (at least I think).",
+      "range": {
+        "startLine": 24,
+        "startChar": 26,
+        "endLine": 24,
+        "endChar": 28
+      },
+      "revId": "b3df84ca5f6147362089a02f7178d661038aa53d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_18160e49",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-10-07T12:48:33Z",
+      "side": 1,
+      "message": "Please add \"|bool\" to make it easier to override this from quickstart/ansible command line.",
+      "range": {
+        "startLine": 26,
+        "startChar": 8,
+        "endLine": 26,
+        "endChar": 23
+      },
+      "revId": "b3df84ca5f6147362089a02f7178d661038aa53d",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
