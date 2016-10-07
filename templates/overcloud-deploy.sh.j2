@@ -64,6 +64,7 @@ EOENV
 ## ::
 openstack overcloud deploy \
     --templates {{overcloud_templates_path}} \
+    {{ libvirt_args }} \
     {{ deploy_args }} \
     ${DEPLOY_ENV_YAML:+-e $DEPLOY_ENV_YAML} "$@" || true
 

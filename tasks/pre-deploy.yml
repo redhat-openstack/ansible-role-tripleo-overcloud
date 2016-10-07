@@ -18,3 +18,11 @@
       {{ pacemaker_args }}
       -e $HOME/neutronl3ha.yaml
   when: enable_pacemaker and overcloud_nodes|length < 3
+
+- name: Use KVM for Red Hat distro
+  set_fact: libvirt_args="--libvirt-type kvm"
+  when: ansible_distribution == 'RedHat'
+
+- name: Use QEMU for centos distro
+  set_fact: libvirt_args="--libvirt-type qemu"
+  when: ansible_distribution == 'CentOS'
