@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_1dbde0b0",
+        "filename": "defaults/main.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1006748
+      },
+      "writtenOn": "2016-10-07T10:13:51Z",
+      "side": 1,
+      "message": "note that this is only available from newton. liberty and mitaka don\u0027t have this file.",
+      "range": {
+        "startLine": 55,
+        "startChar": 69,
+        "endLine": 55,
+        "endChar": 71
+      },
+      "revId": "72faaac35a15f73d52db1df32db2e8e827a3e658",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
