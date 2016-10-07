@@ -22,6 +22,30 @@
       "revId": "72faaac35a15f73d52db1df32db2e8e827a3e658",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_18896e6f",
+        "filename": "defaults/main.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1003044
+      },
+      "writtenOn": "2016-10-07T12:18:04Z",
+      "side": 1,
+      "message": "Yes for Mitaka/Liberty, all is in the enable-tls.yml file.\nThe release specific will be part of another patchset, once the tls_tht.py script will manage this as well.\n\nBtw, thanks for your help!",
+      "parentUuid": "baa041b7_1dbde0b0",
+      "range": {
+        "startLine": 55,
+        "startChar": 69,
+        "endLine": 55,
+        "endChar": 71
+      },
+      "revId": "72faaac35a15f73d52db1df32db2e8e827a3e658",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
