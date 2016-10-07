@@ -23,7 +23,7 @@ external_network_gateway: "{{ floating_ip_cidr|nthhost(1) }}"
 # Minutes to wait before giving up on the deploy.
 deploy_timeout: 90
 extra_args: ""
-libvirt_args: "--libvirt-type qemu"
+libvirt_args: "--libvirt-type kvm"
 
 # we generally assume that the argument to --control-flavor will
 # always be the `oooq_control` that we create from the flavors: key.
