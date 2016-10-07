@@ -18,3 +18,10 @@
       {{ pacemaker_args }}
       -e $HOME/neutronl3ha.yaml
   when: enable_pacemaker and overcloud_nodes|length < 3
+
+- name: enable debug on overcloud services
+  set_fact:
+    overcloud_debug_args: >-
+      -e {{overcloud_templates_path}}/environments/config-debug.yaml
+  when: overcloud_debug
+

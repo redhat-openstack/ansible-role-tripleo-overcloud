@@ -23,6 +23,7 @@ external_network_gateway: "{{ floating_ip_cidr|nthhost(1) }}"
 # Minutes to wait before giving up on the deploy.
 deploy_timeout: 90
 extra_args: ""
+overcloud_debug: false
 libvirt_args: "--libvirt-type qemu"
 
 # we generally assume that the argument to --control-flavor will
@@ -49,6 +50,7 @@ timeout_args: "--timeout {{deploy_timeout}}"
 
 network_args: ""
 pacemaker_args: ""
+overcloud_debug_args: ""
 
 deploy_args: >-
   {{ libvirt_args }}
@@ -56,6 +58,7 @@ deploy_args: >-
   {{ timeout_args }}
   {{ network_args }}
   {{ pacemaker_args }}
+  {{ overcloud_debug_args }}
   {{ extra_args }}
 
 step_deploy_overcloud: true
