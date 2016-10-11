@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_ded1a4cd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2016-10-11T13:48:07Z",
+      "side": 1,
+      "message": "s/newton/liberty/ here",
+      "revId": "7b5d5dc7252bf32c0805df4ab1c8632e758df1a9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_3ec77013",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003529
+      },
+      "writtenOn": "2016-10-11T13:48:07Z",
+      "side": 1,
+      "message": "lets do \"release not in [\u0027liberty\u0027, \u0027mitaka\u0027]\" so we don\u0027t have to update this on new releases",
+      "revId": "7b5d5dc7252bf32c0805df4ab1c8632e758df1a9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
