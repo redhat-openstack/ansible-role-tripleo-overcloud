@@ -58,6 +58,24 @@ parameter_defaults:
 EOENV
 {% endif %}
 
+
+{% if release in ['master', 'newton'] %}
+## * Sometimes mistral actions might be out of date
+## ::
+
+sudo systemctl restart openstack-mistral-executor
+sudo systemctl restart openstack-mistral-engine
+
+## this loads the actions via entrypoints
+## ::
+sudo mistral-db-manage populate
+
+## make sure the new actions got loaded
+## ::
+mistral action-list | grep tripleo
+
+{% endif %}
+
 ## * Deploy the overcloud!
 ## ::
 openstack overcloud deploy \
