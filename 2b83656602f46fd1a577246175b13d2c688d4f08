@@ -1,0 +1,8 @@
+Code-Review+2: mathieu bultel <mat.bultel@gmail.com>
+Verified+1: mathieu bultel <mat.bultel@gmail.com>
+Verified+1: <openstack-ci-service+rdo-ci-centos@redhat.com>
+Submitted-by: mathieu bultel <mat.bultel@gmail.com>
+Submitted-at: Thu, 13 Oct 2016 06:46:03 -0400
+Reviewed-on: https://review.gerrithub.io/298063
+Project: redhat-openstack/ansible-role-tripleo-overcloud
+Branch: refs/heads/master
