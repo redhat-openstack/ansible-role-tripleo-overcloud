@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_1ee5ba36",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1006607
+      },
+      "writtenOn": "2016-10-15T13:25:11Z",
+      "side": 1,
+      "message": "I don\u0027t think this will be needed after Wes\u0027 patch[1] lands. It\u0027s setting this to default iiuc.\n\n[1] - https://review.gerrithub.io/#/c/297457/",
+      "revId": "50ba025eb67a08017dd59c8abdc1897e72e858ba",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
