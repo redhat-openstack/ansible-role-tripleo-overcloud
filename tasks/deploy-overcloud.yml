@@ -2,3 +2,12 @@
   shell: |
     {{ working_dir }}/overcloud-deploy.sh > {{ deploy_log }} 2>&1
   when: step_deploy_overcloud
+
+# This makes the overcloudrc file available locally.  This file
+# contains credentials for accessing OpenStack API services on the
+# overcloud.
+- name: Copy overcloudrc to ansible host
+  fetch:
+    flat: true
+    src: overcloudrc
+    dest: "{{ local_working_dir }}/overcloudrc"
