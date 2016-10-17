@@ -16,5 +16,5 @@
 
 - include: post-deploy.yml
   tags:
-    - overcloud-post-deploy
+    - overcloud-deploy
   when: overcloud_deploy_result == "passed"
