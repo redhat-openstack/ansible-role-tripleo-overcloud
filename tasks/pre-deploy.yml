@@ -17,7 +17,7 @@
     pacemaker_args: >-
       {{ pacemaker_args }}
       -e $HOME/neutronl3ha.yaml
-  when: enable_pacemaker and overcloud_nodes|length < 3
+  when: enable_pacemaker and pacemaker_one_controller
 
 - name: set workers_args fact
   set_fact:

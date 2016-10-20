@@ -48,6 +48,7 @@ flavor_args: >-
 timeout_args: "--timeout {{deploy_timeout}}"
 
 set_overcloud_workers: true
+pacemaker_one_controller: false
 
 network_args: ""
 pacemaker_args: ""
