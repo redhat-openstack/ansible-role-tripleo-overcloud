@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_60699924",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-10-26T14:44:50Z",
+      "side": 1,
+      "message": "It\u0027s not guaranteed that the scale option will be in `extra_args`, I think we should use the deploy_args variable that will contain everything necessary.\n\nAlso I wouldn\u0027t use grep -P for line manipulation, it\u0027s not what it\u0027s meant for and according to the man page the -P mode is \"experimental\", whatever it means.\n\nThere\u0027s a more ansible way to solve this, see below.",
+      "revId": "6e15fa0140cabc9f917b26d3d8ad0e48fefe7d4f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_2050312b",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-10-26T14:44:50Z",
+      "side": 1,
+      "message": "I\u0027d rather not spare that extra \"of\" to make it more readable, but probably it\u0027s not even needed to have a variable for this.",
+      "range": {
+        "startLine": 18,
+        "startChar": 12,
+        "endLine": 18,
+        "endChar": 30
+      },
+      "revId": "6e15fa0140cabc9f917b26d3d8ad0e48fefe7d4f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_202711c8",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-10-26T14:44:50Z",
+      "side": 1,
+      "message": "If we fall back on using the deploy command, then we can still use Ansible. It has regexp_replace that should solve this without us needing to run a shell command. Try this as the value for the number of controllers:\n\n    {{ deploy_args| regex_replace(\u0027^.*--control-scale +([0-9]+).*$\u0027, \u0027\\\\1\u0027) | regex_replace(\u0027^[^ 0-9]*.*$\u0027, \u00271\u0027)|int }}\n\nThe second replace is there to provide a default. I did a bit of local testing, but still I\u0027m just 80% sure this will work as it should in every case, so please test it. :)",
+      "revId": "6e15fa0140cabc9f917b26d3d8ad0e48fefe7d4f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
