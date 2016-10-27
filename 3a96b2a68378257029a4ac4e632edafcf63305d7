@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa041b7_6296394d",
+        "filename": "tasks/create-scripts.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-10-27T13:21:19Z",
+      "side": 1,
+      "message": "you could just write it in the same line, now it\u0027s short. :)\n\nBug again, not a dealbreaker.",
+      "range": {
+        "startLine": 17,
+        "startChar": 7,
+        "endLine": 17,
+        "endChar": 9
+      },
+      "revId": "3a96b2a68378257029a4ac4e632edafcf63305d7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_82aa5d82",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-10-27T13:21:19Z",
+      "side": 1,
+      "message": "Not important, but the \"|int\" is unnecessary here. I thought you\u0027re going to use it directly in the when condition. If you make another patchset for a different reason: remove it, if not: keep it.",
+      "range": {
+        "startLine": 16,
+        "startChar": 143,
+        "endLine": 16,
+        "endChar": 147
+      },
+      "revId": "3a96b2a68378257029a4ac4e632edafcf63305d7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa041b7_229cb168",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-10-27T13:21:19Z",
+      "side": 1,
+      "message": "Same, can be 1 line, but can stay this way.",
+      "range": {
+        "startLine": 23,
+        "startChar": 7,
+        "endLine": 23,
+        "endChar": 9
+      },
+      "revId": "3a96b2a68378257029a4ac4e632edafcf63305d7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
