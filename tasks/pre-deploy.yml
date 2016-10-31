@@ -4,7 +4,7 @@
       -e {{overcloud_templates_path}}/environments/network-isolation.yaml
       -e {{overcloud_templates_path}}/environments/net-single-nic-with-vlans.yaml
       -e $HOME/network-environment.yaml
-  when: network_isolation
+  when: network_isolation and not containerized_compute
 
 - name: enable pacemaker
   set_fact:
@@ -31,3 +31,19 @@
 - name: Use KVM for Red Hat distro
   set_fact: libvirt_args="--libvirt-type kvm"
   when: ansible_distribution == 'RedHat'
+
+- name: set container_args fact
+  set_fact:
+    container_args: >-
+      -e {{overcloud_templates_path}}/environments/docker.yaml
+      -e {{overcloud_templates_path}}/environments/docker-network.yaml
+  when: containerized_compute
+
+- name: set network_args fact for containers
+  set_fact:
+    network_args: >-
+      -e {{overcloud_templates_path}}/environments/docker-network-isolation.yaml
+      -e {{overcloud_templates_path}}/environments/net-single-nic-with-vlans.yaml
+      -e $HOME/network-environment.yaml
+  when: network_isolation and containerized_compute
+
