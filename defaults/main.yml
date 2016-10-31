@@ -48,15 +48,18 @@ flavor_args: >-
 timeout_args: "--timeout {{deploy_timeout}}"
 
 set_overcloud_workers: true
+containerized_compute: false
 
 network_args: ""
 pacemaker_args: ""
 workers_args: ""
+container_args: ""
 
 deploy_args: >-
   {{ libvirt_args }}
   {{ flavor_args }}
   {{ timeout_args }}
+  {{ container_args }}
   {{ network_args }}
   {{ pacemaker_args }}
   {{ workers_args }}
