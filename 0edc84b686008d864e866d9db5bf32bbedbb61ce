@@ -1,0 +1,7 @@
+Verified+1: <openstack-ci-service+rdo-ci-centos@redhat.com>
+Code-Review+2: Attila Darazs <adarazs@redhat.com>
+Submitted-by: Attila Darazs <adarazs@redhat.com>
+Submitted-at: Fri, 04 Nov 2016 09:09:10 -0400
+Reviewed-on: https://review.gerrithub.io/297382
+Project: redhat-openstack/ansible-role-tripleo-overcloud
+Branch: refs/heads/master
