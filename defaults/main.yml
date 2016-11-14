@@ -53,6 +53,7 @@ set_overcloud_workers: true
 network_args: ""
 pacemaker_args: ""
 workers_args: ""
+backup_args: ""
 
 ssl_args: ""
 
@@ -63,6 +64,7 @@ deploy_args: >-
   {{ network_args }}
   {{ pacemaker_args }}
   {{ workers_args }}
+  {{ backup_args }}
   {{ ssl_args }}
   {{ extra_tht_config_args|default('') }}
   {{ extra_args }}
