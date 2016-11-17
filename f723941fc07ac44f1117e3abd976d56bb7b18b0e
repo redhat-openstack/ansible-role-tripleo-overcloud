@@ -1,0 +1,7 @@
+Verified+1: <openstack-ci-service+rdo-ci-centos@redhat.com>
+Code-Review+2: John Trowbridge <trown@redhat.com>
+Submitted-by: John Trowbridge <trown@redhat.com>
+Submitted-at: Thu, 17 Nov 2016 15:57:29 -0500
+Reviewed-on: https://review.gerrithub.io/301666
+Project: redhat-openstack/ansible-role-tripleo-overcloud
+Branch: refs/heads/master
