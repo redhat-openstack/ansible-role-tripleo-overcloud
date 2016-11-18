@@ -1,0 +1,7 @@
+Code-Review+2: Gabriele Cerami <gcerami@redhat.com>
+Verified+1: wes hayutin <weshayutin@gmail.com>
+Submitted-by: wes hayutin <weshayutin@gmail.com>
+Submitted-at: Fri, 18 Nov 2016 11:37:34 -0500
+Reviewed-on: https://review.gerrithub.io/302771
+Project: redhat-openstack/ansible-role-tripleo-overcloud
+Branch: refs/heads/master
