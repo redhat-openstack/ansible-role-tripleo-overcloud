@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9aa53dc9_9f807348",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1003044
+      },
+      "writtenOn": "2016-11-18T08:25:04Z",
+      "side": 1,
+      "message": "don\u0027t think it is necessary here.",
+      "revId": "6a97fc973a4bb547c6a4b0974a00906605e96f67",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
