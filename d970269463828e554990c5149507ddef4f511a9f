@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9aa53dc9_743cae2f",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-11-21T10:35:47Z",
+      "side": 1,
+      "message": "Please add |bool to both variables when testing true/false.",
+      "revId": "d970269463828e554990c5149507ddef4f511a9f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9aa53dc9_5449aacf",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-11-21T10:35:47Z",
+      "side": 1,
+      "message": "|bool",
+      "revId": "d970269463828e554990c5149507ddef4f511a9f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9aa53dc9_344626c0",
+        "filename": "tasks/pre-deploy.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1001800
+      },
+      "writtenOn": "2016-11-21T10:35:47Z",
+      "side": 1,
+      "message": "|bool",
+      "revId": "d970269463828e554990c5149507ddef4f511a9f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
